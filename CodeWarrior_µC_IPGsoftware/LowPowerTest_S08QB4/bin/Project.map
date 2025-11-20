@@ -1,0 +1,780 @@
+
+PROGRAM "C:\Users\Raik\Desktop\LowPowerTest_S08QB4.mcp_0_backup\LowPowerTest_S08QB4\bin\Project.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC08
+Memory Model: SMALL
+File Format : ELF\DWARF 2.0
+Linker      : SmartLinker V-5.0.37 Build 9279, Oct  7 2009
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+RTSHC08.C.o (ansiis.lib)                Model: SMALL,         Lang: ANSI-C
+Start08.c.o                             Model: SMALL,         Lang: ANSI-C
+Cpu.c.o                                 Model: SMALL,         Lang: ANSI-C
+IO_Map.c.o                              Model: SMALL,         Lang: ANSI-C
+Vectors.c.o                             Model: SMALL,         Lang: ANSI-C
+Events.c.o                              Model: SMALL,         Lang: ANSI-C
+LowPowerTest_S08QB4.c.o                 Model: SMALL,         Lang: ANSI-C
+_130Hz.c.o                              Model: SMALL,         Lang: ANSI-C
+EInt1.c.o                               Model: SMALL,         Lang: ANSI-C
+_2750ms.c.o                             Model: SMALL,         Lang: ANSI-C
+_100Hz.c.o                              Model: SMALL,         Lang: ANSI-C
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+Entry point: 0xF004 (_EntryPoint)
+_startupData is allocated at 0xF096 and uses 6 Bytes
+extern struct _tagStartup {
+  unsigned nofZeroOut     1
+  _Range   pZeroOut       0x80     21
+  _Copy    *toCopyDownBeg 0xF783
+} _startupData;
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.data                              1   R/W       0x80       0x80   RAM
+.text                           1759     R     0xF0A4     0xF782   ROM
+.abs_section_ffbd                  1     R     0xFFBD     0xFFBD   .absSeg0
+.abs_section_ffbf                  1     R     0xFFBF     0xFFBF   .absSeg1
+.abs_section_0                     1   N/I        0x0        0x0   .absSeg2
+.abs_section_1                     1   N/I        0x1        0x1   .absSeg3
+.abs_section_2                     1   N/I        0x2        0x2   .absSeg4
+.abs_section_3                     1   N/I        0x3        0x3   .absSeg5
+.abs_section_4                     1   N/I        0x4        0x4   .absSeg6
+.abs_section_5                     1   N/I        0x5        0x5   .absSeg7
+.abs_section_c                     1   N/I        0xC        0xC   .absSeg8
+.abs_section_d                     1   N/I        0xD        0xD   .absSeg9
+.abs_section_e                     1   N/I        0xE        0xE   .absSeg10
+.abs_section_f                     1   N/I        0xF        0xF   .absSeg11
+.abs_section_10                    1   N/I       0x10       0x10   .absSeg12
+.abs_section_11                    1   N/I       0x11       0x11   .absSeg13
+.abs_section_16                    1   N/I       0x16       0x16   .absSeg14
+.abs_section_17                    1   N/I       0x17       0x17   .absSeg15
+.abs_section_1a                    1   N/I       0x1A       0x1A   .absSeg16
+.abs_section_22                    1   N/I       0x22       0x22   .absSeg17
+.abs_section_23                    1   N/I       0x23       0x23   .absSeg18
+.abs_section_24                    1   N/I       0x24       0x24   .absSeg19
+.abs_section_25                    1   N/I       0x25       0x25   .absSeg20
+.abs_section_26                    1   N/I       0x26       0x26   .absSeg21
+.abs_section_27                    1   N/I       0x27       0x27   .absSeg22
+.abs_section_38                    1   N/I       0x38       0x38   .absSeg23
+.abs_section_39                    1   N/I       0x39       0x39   .absSeg24
+.abs_section_3a                    1   N/I       0x3A       0x3A   .absSeg25
+.abs_section_3b                    1   N/I       0x3B       0x3B   .absSeg26
+.abs_section_3c                    1   N/I       0x3C       0x3C   .absSeg27
+.abs_section_3d                    1   N/I       0x3D       0x3D   .absSeg28
+.abs_section_3e                    1   N/I       0x3E       0x3E   .absSeg29
+.abs_section_3f                    1   N/I       0x3F       0x3F   .absSeg30
+.abs_section_40                    1   N/I       0x40       0x40   .absSeg31
+.abs_section_45                    1   N/I       0x45       0x45   .absSeg32
+.abs_section_1800                  1   N/I     0x1800     0x1800   .absSeg33
+.abs_section_1801                  1   N/I     0x1801     0x1801   .absSeg34
+.abs_section_1802                  1   N/I     0x1802     0x1802   .absSeg35
+.abs_section_1803                  1   N/I     0x1803     0x1803   .absSeg36
+.abs_section_1808                  1   N/I     0x1808     0x1808   .absSeg37
+.abs_section_1809                  1   N/I     0x1809     0x1809   .absSeg38
+.abs_section_180b                  1   N/I     0x180B     0x180B   .absSeg39
+.abs_section_180e                  1   N/I     0x180E     0x180E   .absSeg40
+.abs_section_180f                  1   N/I     0x180F     0x180F   .absSeg41
+.abs_section_1820                  1   N/I     0x1820     0x1820   .absSeg42
+.abs_section_1821                  1   N/I     0x1821     0x1821   .absSeg43
+.abs_section_1823                  1   N/I     0x1823     0x1823   .absSeg44
+.abs_section_1824                  1   N/I     0x1824     0x1824   .absSeg45
+.abs_section_1825                  1   N/I     0x1825     0x1825   .absSeg46
+.abs_section_1826                  1   N/I     0x1826     0x1826   .absSeg47
+.abs_section_1830                  1   N/I     0x1830     0x1830   .absSeg48
+.abs_section_1831                  1   N/I     0x1831     0x1831   .absSeg49
+.abs_section_1832                  1   N/I     0x1832     0x1832   .absSeg50
+.abs_section_1840                  1   N/I     0x1840     0x1840   .absSeg51
+.abs_section_1841                  1   N/I     0x1841     0x1841   .absSeg52
+.abs_section_1842                  1   N/I     0x1842     0x1842   .absSeg53
+.abs_section_1844                  1   N/I     0x1844     0x1844   .absSeg54
+.abs_section_1845                  1   N/I     0x1845     0x1845   .absSeg55
+.abs_section_1846                  1   N/I     0x1846     0x1846   .absSeg56
+.abs_section_1848                  1   N/I     0x1848     0x1848   .absSeg57
+.abs_section_1849                  1   N/I     0x1849     0x1849   .absSeg58
+.abs_section_184a                  1   N/I     0x184A     0x184A   .absSeg59
+.abs_section_12                    2   N/I       0x12       0x13   .absSeg60
+.abs_section_14                    2   N/I       0x14       0x15   .absSeg61
+.abs_section_20                    2   N/I       0x20       0x21   .absSeg62
+.abs_section_41                    2   N/I       0x41       0x42   .absSeg63
+.abs_section_43                    2   N/I       0x43       0x44   .absSeg64
+.abs_section_46                    2   N/I       0x46       0x47   .absSeg65
+.abs_section_1806                  2   N/I     0x1806     0x1807   .absSeg66
+.abs_section_ffce                 50     R     0xFFCE     0xFFFF   .absSeg67
+.bss                              11   R/W       0x81       0x8B   RAM
+.startData                        14     R     0xF096     0xF0A3   ROM
+.init                            150     R     0xF000     0xF095   ROM
+.common                            9   R/W       0x8C       0x94   RAM
+.stack                            48   R/W       0x95       0xC4   RAM
+.copy                              7     R     0xF783     0xF789   ROM
+
+Summary of section sizes per section type:
+READ_ONLY (R):         7BE (dec:     1982)
+READ_WRITE (R/W):       45 (dec:       69)
+NO_INIT (N/I):          48 (dec:       72)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+MODULE:                 -- RTSHC08.C.o (ansiis.lib) --
+- PROCEDURES:
+     _PUSH_ARGS_L                              F0A4      20      32       1   .text       
+     _ENTER_BINARY_L_RC                        F0C4      19      25       1   .text       
+     _LCMP_k_rel_j                             F0DD      1F      31       1   .text       
+     _ICMP                                     F0FC      16      22       1   .text       
+     _LCMP_RC                                  F112       6       6       1   .text       
+     _SEXT16_32                                F118       D      13      15   .text       
+- VARIABLES:
+MODULE:                 -- Start08.c.o --
+- PROCEDURES:
+     loadByte                                  F125       E      14       5   .text       
+     Init                                      F133      6D     109       1   .text       
+     _Startup                                  F1A0       9       9       1   .text       
+- VARIABLES:
+     _startupData                              F096       6       6       4   .startData  
+- LABELS:
+     __SEG_END_SSTACK                            C5       0       0       1               
+MODULE:                 -- Cpu.c.o --
+- PROCEDURES:
+     Cpu_Interrupt                             F000       4       4      20   .init       
+     _EntryPoint                               F004      35      53       1   .init       
+     PE_low_level_init                         F039      5D      93       1   .init       
+- VARIABLES:
+     NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
+     NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
+MODULE:                 -- IO_Map.c.o --
+- PROCEDURES:
+- VARIABLES:
+     _PTAD                                        0       1       1       4   .abs_section_0
+     _PTADD                                       1       1       1       2   .abs_section_1
+     _PTBD                                        2       1       1      36   .abs_section_2
+     _PTBDD                                       3       1       1       2   .abs_section_3
+     _PTCD                                        4       1       1       1   .abs_section_4
+     _PTCDD                                       5       1       1       1   .abs_section_5
+     _KBISC                                       C       1       1       8   .abs_section_c
+     _KBIPE                                       D       1       1       1   .abs_section_d
+     _KBIES                                       E       1       1       0   .abs_section_e
+     _IRQSC                                       F       1       1       0   .abs_section_f
+     _ADCSC1                                     10       1       1       0   .abs_section_10
+     _ADCSC2                                     11       1       1       0   .abs_section_11
+     _ADCCFG                                     16       1       1       0   .abs_section_16
+     _APCTL1                                     17       1       1       0   .abs_section_17
+     _ACMPSC                                     1A       1       1       0   .abs_section_1a
+     _SCIC1                                      22       1       1       0   .abs_section_22
+     _SCIC2                                      23       1       1       0   .abs_section_23
+     _SCIS1                                      24       1       1       0   .abs_section_24
+     _SCIS2                                      25       1       1       0   .abs_section_25
+     _SCIC3                                      26       1       1       0   .abs_section_26
+     _SCID                                       27       1       1       0   .abs_section_27
+     _ICSC1                                      38       1       1       1   .abs_section_38
+     _ICSC2                                      39       1       1       1   .abs_section_39
+     _ICSTRM                                     3A       1       1       1   .abs_section_3a
+     _ICSSC                                      3B       1       1       2   .abs_section_3b
+     _MTIMSC                                     3C       1       1       6   .abs_section_3c
+     _MTIMCLK                                    3D       1       1       1   .abs_section_3d
+     _MTIMCNT                                    3E       1       1       0   .abs_section_3e
+     _MTIMMOD                                    3F       1       1       2   .abs_section_3f
+     _TPMSC                                      40       1       1       6   .abs_section_40
+     _TPMC0SC                                    45       1       1       2   .abs_section_45
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SPMSC1                                   1808       1       1       1   .abs_section_1808
+     _SPMSC2                                   1809       1       1       2   .abs_section_1809
+     _SPMSC3                                   180B       1       1       2   .abs_section_180b
+     _SCGC1                                    180E       1       1       1   .abs_section_180e
+     _SCGC2                                    180F       1       1       1   .abs_section_180f
+     _FCDIV                                    1820       1       1       0   .abs_section_1820
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _RTCSC                                    1830       1       1       4   .abs_section_1830
+     _RTCCNT                                   1831       1       1       0   .abs_section_1831
+     _RTCMOD                                   1832       1       1       1   .abs_section_1832
+     _PTAPE                                    1840       1       1       1   .abs_section_1840
+     _PTASE                                    1841       1       1       1   .abs_section_1841
+     _PTADS                                    1842       1       1       1   .abs_section_1842
+     _PTBPE                                    1844       1       1       1   .abs_section_1844
+     _PTBSE                                    1845       1       1       1   .abs_section_1845
+     _PTBDS                                    1846       1       1       1   .abs_section_1846
+     _PTCPE                                    1848       1       1       0   .abs_section_1848
+     _PTCSE                                    1849       1       1       0   .abs_section_1849
+     _PTCDS                                    184A       1       1       0   .abs_section_184a
+     _ADCR                                       12       2       2       0   .abs_section_12
+     _ADCCV                                      14       2       2       0   .abs_section_14
+     _SCIBD                                      20       2       2       0   .abs_section_20
+     _TPMCNT                                     41       2       2       2   .abs_section_41
+     _TPMMOD                                     43       2       2       6   .abs_section_43
+     _TPMC0V                                     46       2       2       1   .abs_section_46
+     _SDID                                     1806       2       2       0   .abs_section_1806
+MODULE:                 -- Vectors.c.o --
+- PROCEDURES:
+- VARIABLES:
+     _vect                                     FFCE      32      50       0   .abs_section_ffce
+MODULE:                 -- Events.c.o --
+- PROCEDURES:
+     _130Hz_OnInterrupt                        F1A9      24      36       1   .text       
+     EInt1_OnInterrupt                         F1CD      19      25       1   .text       
+     _2750ms_OnInterrupt                       F1E6      D4     212       6   .text       
+     _100Hz_OnInterrupt                        F2BA      4E      78       1   .text       
+- VARIABLES:
+MODULE:                 -- LowPowerTest_S08QB4.c.o --
+- PROCEDURES:
+     main                                      F308     382     898      69   .text       
+- VARIABLES:
+     puls_mode                                   80       1       1       1   .data       
+     stim_on                                     81       1       1       4   .bss        
+     new_stim_data                               82       1       1       4   .bss        
+     stop_switch                                 83       1       1       2   .bss        
+     i                                           84       2       2       9   .bss        
+     j                                           86       2       2      10   .bss        
+     ISRcounter                                  88       1       1       4   .bss        
+     a                                           8C       1       1      10   .common     
+     b                                           8D       1       1      12   .common     
+     counter2                                    8E       1       1      10   .common     
+     old_counter2                                8F       1       1       6   .common     
+     ValueHz                                     90       1       1       4   .common     
+     burst_mode                                  91       1       1       4   .common     
+MODULE:                 -- _130Hz.c.o --
+- PROCEDURES:
+     HWEnDi                                    F68A      11      17       3   .text       
+     _130Hz_Enable                             F69B       E      14       1   .text       
+     _130Hz_Disable                            F6A9       D      13       3   .text       
+     _130Hz_Init                               F6B6      1D      29       1   .text       
+     _130Hz_Interrupt                          F6D3       D      13       1   .text       
+- VARIABLES:
+     EnUser                                      89       1       1       6   .bss        
+     _130Hz_EnEvent                              92       1       1       3   .common     
+MODULE:                 -- EInt1.c.o --
+- PROCEDURES:
+     EInt1_Interrupt                           F6E0       8       8       1   .text       
+- VARIABLES:
+MODULE:                 -- _2750ms.c.o --
+- PROCEDURES:
+     HWEnDi                                    F6E8      12      18       3   .text       
+     _2750ms_Enable                            F6FA       E      14       1   .text       
+     _2750ms_Disable                           F708       D      13       1   .text       
+     _2750ms_Init                              F715      14      20       1   .text       
+     _2750ms_Interrupt                         F729      12      18       1   .text       
+- VARIABLES:
+     EnUser                                      8A       1       1       6   .bss        
+     _2750ms_EnEvent                             93       1       1       3   .common     
+MODULE:                 -- _100Hz.c.o --
+- PROCEDURES:
+     HWEnDi                                    F73B       D      13       3   .text       
+     _100Hz_Enable                             F748       E      14       1   .text       
+     _100Hz_Disable                            F756       D      13       3   .text       
+     _100Hz_Init                               F763      13      19       1   .text       
+     _100Hz_Interrupt                          F776       D      13       1   .text       
+- VARIABLES:
+     EnUser                                      8B       1       1       6   .bss        
+     _100Hz_EnEvent                              94       1       1       3   .common     
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+  RTSHC08.C.o (ansiis.lib)                     0    129      0
+  Start08.c.o                                  0    132      0
+  Cpu.c.o                                      0    150      2
+  IO_Map.c.o                                  72      0      0
+  Vectors.c.o                                  0      0     50
+  Events.c.o                                   0    351      0
+  LowPowerTest_S08QB4.c.o                     15    898      0
+  _130Hz.c.o                                   2     86      0
+  EInt1.c.o                                    0      8      0
+  _2750ms.c.o                                  2     83      0
+  _100Hz.c.o                                   2     72      0
+  other                                       48     14      7
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+SECTION: ".text"
+  _PUSH_ARGS_L _ENTER_BINARY_L_RC _LCMP_k_rel_j _ICMP _LCMP_RC _SEXT16_32 
+  loadByte Init _Startup _130Hz_OnInterrupt EInt1_OnInterrupt 
+  _2750ms_OnInterrupt _100Hz_OnInterrupt main HWEnDi _130Hz_Enable 
+  _130Hz_Disable _130Hz_Init _130Hz_Interrupt EInt1_Interrupt HWEnDi 
+  _2750ms_Enable _2750ms_Disable _2750ms_Init _2750ms_Interrupt HWEnDi 
+  _100Hz_Enable _100Hz_Disable _100Hz_Init _100Hz_Interrupt 
+SECTION: ".data"
+  puls_mode 
+SECTION: ".bss"
+  stim_on new_stim_data stop_switch i j ISRcounter EnUser EnUser EnUser 
+SECTION: ".init"
+  Cpu_Interrupt _EntryPoint PE_low_level_init 
+SECTION: ".common"
+  a b counter2 old_counter2 ValueHz burst_mode _130Hz_EnEvent _2750ms_EnEvent 
+  _100Hz_EnEvent 
+SECTION: ".abs_section_ffbd"
+  NVPROT_INIT 
+SECTION: ".abs_section_ffbf"
+  NVOPT_INIT 
+SECTION: ".abs_section_0"
+  _PTAD 
+SECTION: ".abs_section_1"
+  _PTADD 
+SECTION: ".abs_section_2"
+  _PTBD 
+SECTION: ".abs_section_3"
+  _PTBDD 
+SECTION: ".abs_section_4"
+  _PTCD 
+SECTION: ".abs_section_5"
+  _PTCDD 
+SECTION: ".abs_section_c"
+  _KBISC 
+SECTION: ".abs_section_d"
+  _KBIPE 
+SECTION: ".abs_section_e"
+  _KBIES 
+SECTION: ".abs_section_f"
+  _IRQSC 
+SECTION: ".abs_section_10"
+  _ADCSC1 
+SECTION: ".abs_section_11"
+  _ADCSC2 
+SECTION: ".abs_section_16"
+  _ADCCFG 
+SECTION: ".abs_section_17"
+  _APCTL1 
+SECTION: ".abs_section_1a"
+  _ACMPSC 
+SECTION: ".abs_section_22"
+  _SCIC1 
+SECTION: ".abs_section_23"
+  _SCIC2 
+SECTION: ".abs_section_24"
+  _SCIS1 
+SECTION: ".abs_section_25"
+  _SCIS2 
+SECTION: ".abs_section_26"
+  _SCIC3 
+SECTION: ".abs_section_27"
+  _SCID 
+SECTION: ".abs_section_38"
+  _ICSC1 
+SECTION: ".abs_section_39"
+  _ICSC2 
+SECTION: ".abs_section_3a"
+  _ICSTRM 
+SECTION: ".abs_section_3b"
+  _ICSSC 
+SECTION: ".abs_section_3c"
+  _MTIMSC 
+SECTION: ".abs_section_3d"
+  _MTIMCLK 
+SECTION: ".abs_section_3e"
+  _MTIMCNT 
+SECTION: ".abs_section_3f"
+  _MTIMMOD 
+SECTION: ".abs_section_40"
+  _TPMSC 
+SECTION: ".abs_section_45"
+  _TPMC0SC 
+SECTION: ".abs_section_1800"
+  _SRS 
+SECTION: ".abs_section_1801"
+  _SBDFR 
+SECTION: ".abs_section_1802"
+  _SOPT1 
+SECTION: ".abs_section_1803"
+  _SOPT2 
+SECTION: ".abs_section_1808"
+  _SPMSC1 
+SECTION: ".abs_section_1809"
+  _SPMSC2 
+SECTION: ".abs_section_180b"
+  _SPMSC3 
+SECTION: ".abs_section_180e"
+  _SCGC1 
+SECTION: ".abs_section_180f"
+  _SCGC2 
+SECTION: ".abs_section_1820"
+  _FCDIV 
+SECTION: ".abs_section_1821"
+  _FOPT 
+SECTION: ".abs_section_1823"
+  _FCNFG 
+SECTION: ".abs_section_1824"
+  _FPROT 
+SECTION: ".abs_section_1825"
+  _FSTAT 
+SECTION: ".abs_section_1826"
+  _FCMD 
+SECTION: ".abs_section_1830"
+  _RTCSC 
+SECTION: ".abs_section_1831"
+  _RTCCNT 
+SECTION: ".abs_section_1832"
+  _RTCMOD 
+SECTION: ".abs_section_1840"
+  _PTAPE 
+SECTION: ".abs_section_1841"
+  _PTASE 
+SECTION: ".abs_section_1842"
+  _PTADS 
+SECTION: ".abs_section_1844"
+  _PTBPE 
+SECTION: ".abs_section_1845"
+  _PTBSE 
+SECTION: ".abs_section_1846"
+  _PTBDS 
+SECTION: ".abs_section_1848"
+  _PTCPE 
+SECTION: ".abs_section_1849"
+  _PTCSE 
+SECTION: ".abs_section_184a"
+  _PTCDS 
+SECTION: ".abs_section_12"
+  _ADCR 
+SECTION: ".abs_section_14"
+  _ADCCV 
+SECTION: ".abs_section_20"
+  _SCIBD 
+SECTION: ".abs_section_41"
+  _TPMCNT 
+SECTION: ".abs_section_43"
+  _TPMMOD 
+SECTION: ".abs_section_46"
+  _TPMC0V 
+SECTION: ".abs_section_1806"
+  _SDID 
+SECTION: ".abs_section_ffce"
+  _vect 
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+     _PTAD                                        0       1       1       4   .abs_section_0
+     _PTADD                                       1       1       1       2   .abs_section_1
+     _PTBD                                        2       1       1      36   .abs_section_2
+     _PTBDD                                       3       1       1       2   .abs_section_3
+     _PTCD                                        4       1       1       1   .abs_section_4
+     _PTCDD                                       5       1       1       1   .abs_section_5
+     _KBISC                                       C       1       1       8   .abs_section_c
+     _KBIPE                                       D       1       1       1   .abs_section_d
+     _KBIES                                       E       1       1       0   .abs_section_e
+     _IRQSC                                       F       1       1       0   .abs_section_f
+     _ADCSC1                                     10       1       1       0   .abs_section_10
+     _ADCSC2                                     11       1       1       0   .abs_section_11
+     _ADCR                                       12       2       2       0   .abs_section_12
+     _ADCCV                                      14       2       2       0   .abs_section_14
+     _ADCCFG                                     16       1       1       0   .abs_section_16
+     _APCTL1                                     17       1       1       0   .abs_section_17
+     _ACMPSC                                     1A       1       1       0   .abs_section_1a
+     _SCIBD                                      20       2       2       0   .abs_section_20
+     _SCIC1                                      22       1       1       0   .abs_section_22
+     _SCIC2                                      23       1       1       0   .abs_section_23
+     _SCIS1                                      24       1       1       0   .abs_section_24
+     _SCIS2                                      25       1       1       0   .abs_section_25
+     _SCIC3                                      26       1       1       0   .abs_section_26
+     _SCID                                       27       1       1       0   .abs_section_27
+     _ICSC1                                      38       1       1       1   .abs_section_38
+     _ICSC2                                      39       1       1       1   .abs_section_39
+     _ICSTRM                                     3A       1       1       1   .abs_section_3a
+     _ICSSC                                      3B       1       1       2   .abs_section_3b
+     _MTIMSC                                     3C       1       1       6   .abs_section_3c
+     _MTIMCLK                                    3D       1       1       1   .abs_section_3d
+     _MTIMCNT                                    3E       1       1       0   .abs_section_3e
+     _MTIMMOD                                    3F       1       1       2   .abs_section_3f
+     _TPMSC                                      40       1       1       6   .abs_section_40
+     _TPMCNT                                     41       2       2       2   .abs_section_41
+     _TPMMOD                                     43       2       2       6   .abs_section_43
+     _TPMC0SC                                    45       1       1       2   .abs_section_45
+     _TPMC0V                                     46       2       2       1   .abs_section_46
+     puls_mode                                   80       1       1       1   .data       
+     stim_on                                     81       1       1       4   .bss        
+     new_stim_data                               82       1       1       4   .bss        
+     stop_switch                                 83       1       1       2   .bss        
+     i                                           84       2       2       9   .bss        
+     j                                           86       2       2      10   .bss        
+     ISRcounter                                  88       1       1       4   .bss        
+     EnUser                                      89       1       1       6   .bss        
+     EnUser                                      8A       1       1       6   .bss        
+     EnUser                                      8B       1       1       6   .bss        
+     a                                           8C       1       1      10   .common     
+     b                                           8D       1       1      12   .common     
+     counter2                                    8E       1       1      10   .common     
+     old_counter2                                8F       1       1       6   .common     
+     ValueHz                                     90       1       1       4   .common     
+     burst_mode                                  91       1       1       4   .common     
+     _130Hz_EnEvent                              92       1       1       3   .common     
+     _2750ms_EnEvent                             93       1       1       3   .common     
+     _100Hz_EnEvent                              94       1       1       3   .common     
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       1   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SDID                                     1806       2       2       0   .abs_section_1806
+     _SPMSC1                                   1808       1       1       1   .abs_section_1808
+     _SPMSC2                                   1809       1       1       2   .abs_section_1809
+     _SPMSC3                                   180B       1       1       2   .abs_section_180b
+     _SCGC1                                    180E       1       1       1   .abs_section_180e
+     _SCGC2                                    180F       1       1       1   .abs_section_180f
+     _FCDIV                                    1820       1       1       0   .abs_section_1820
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _RTCSC                                    1830       1       1       4   .abs_section_1830
+     _RTCCNT                                   1831       1       1       0   .abs_section_1831
+     _RTCMOD                                   1832       1       1       1   .abs_section_1832
+     _PTAPE                                    1840       1       1       1   .abs_section_1840
+     _PTASE                                    1841       1       1       1   .abs_section_1841
+     _PTADS                                    1842       1       1       1   .abs_section_1842
+     _PTBPE                                    1844       1       1       1   .abs_section_1844
+     _PTBSE                                    1845       1       1       1   .abs_section_1845
+     _PTBDS                                    1846       1       1       1   .abs_section_1846
+     _PTCPE                                    1848       1       1       0   .abs_section_1848
+     _PTCSE                                    1849       1       1       0   .abs_section_1849
+     _PTCDS                                    184A       1       1       0   .abs_section_184a
+     Cpu_Interrupt                             F000       4       4      20   .init       
+     _EntryPoint                               F004      35      53       1   .init       
+     PE_low_level_init                         F039      5D      93       1   .init       
+     _PUSH_ARGS_L                              F0A4      20      32       1   .text       
+     _ENTER_BINARY_L_RC                        F0C4      19      25       1   .text       
+     _LCMP_k_rel_j                             F0DD      1F      31       1   .text       
+     _ICMP                                     F0FC      16      22       1   .text       
+     _LCMP_RC                                  F112       6       6       1   .text       
+     _SEXT16_32                                F118       D      13      15   .text       
+     loadByte                                  F125       E      14       5   .text       
+     Init                                      F133      6D     109       1   .text       
+     _Startup                                  F1A0       9       9       1   .text       
+     _130Hz_OnInterrupt                        F1A9      24      36       1   .text       
+     EInt1_OnInterrupt                         F1CD      19      25       1   .text       
+     _2750ms_OnInterrupt                       F1E6      D4     212       6   .text       
+     _100Hz_OnInterrupt                        F2BA      4E      78       1   .text       
+     main                                      F308     382     898      69   .text       
+     HWEnDi                                    F68A      11      17       3   .text       
+     _130Hz_Enable                             F69B       E      14       1   .text       
+     _130Hz_Disable                            F6A9       D      13       3   .text       
+     _130Hz_Init                               F6B6      1D      29       1   .text       
+     _130Hz_Interrupt                          F6D3       D      13       1   .text       
+     EInt1_Interrupt                           F6E0       8       8       1   .text       
+     HWEnDi                                    F6E8      12      18       3   .text       
+     _2750ms_Enable                            F6FA       E      14       1   .text       
+     _2750ms_Disable                           F708       D      13       1   .text       
+     _2750ms_Init                              F715      14      20       1   .text       
+     _2750ms_Interrupt                         F729      12      18       1   .text       
+     HWEnDi                                    F73B       D      13       3   .text       
+     _100Hz_Enable                             F748       E      14       1   .text       
+     _100Hz_Disable                            F756       D      13       3   .text       
+     _100Hz_Init                               F763      13      19       1   .text       
+     _100Hz_Interrupt                          F776       D      13       1   .text       
+     NVPROT_INIT                               FFBD       1       1       0   .abs_section_ffbd
+     NVOPT_INIT                                FFBF       1       1       0   .abs_section_ffbf
+     _vect                                     FFCE      32      50       0   .abs_section_ffce
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+NOT USED PROCEDURES
+RTSHC08.C.o (ansiis.lib):
+  _PUSH_ARGS_D _ENTER_UNARY_L _ENTER_UNARY_L64 _ENTER_UNARY_L64_4 
+  _ENTER_BINARY_L _ENTER_BINARY_L_LC _ENTER_BINARY_L64 _ENTER_BINARY_L64_LC 
+  _ENTER_BINARY_L64_RC _IDIVMOD _SPLITSIGN _LADD_k_is_k_plus_j _k_is_k_plus_j_l 
+  _k_is_k_plus_j_i _LSUB_k_is_k_minus_j _LAND_k_is_k_and_j _LOR_k_is_k_or_j 
+  _LXOR_k_is_k_xor_j _LMUL_k_is_k_mul_j _LDIVMOD _NEG_L_HX _ABS_L_HX 
+  _SPLITSIGN_L _LMODU_k_is_k_mod_j _LDIVU_k_is_k_div_j _LMODS_k_is_k_mod_j 
+  _LDIVS_k_is_k_div_j _CMP24_k_rel_j _BMULS _BDIVS _BMODS _IMUL_STAR08 
+  _IDIVS_STAR08 _IDIVU_STAR08 _IMODS_STAR08 _IMODU_STAR08 _IDIVU_8 _IMODU_8 
+  _IASR _ILSR _ILSL _LINC _LDEC _LNEG _LNOT _LADD _LADD_RC _LSUB _LSUB_LC 
+  _LSUB_RC _LAND _LAND_RC _LOR _LOR_RC _LXOR _LXOR_RC _LMUL _LMUL_RC _LDIVS 
+  _LDIVS_LC _LDIVS_RC _LDIVU _LDIVU_LC _LDIVU_RC _LMODS _LMODS_LC _LMODS_RC 
+  _LMODU _LMODU_LC _LMODU_RC _LASR _LLSR _LLSL _LCMP _PUSH_ARGS_24 
+  _ENTER_BINARY_24_RC _ENTER_BINARY_24 _CMP24 _CMP24_RC _COPY _COPY_L _POP32 
+  _POP64 _STORE32 _STORE64 _SEXT8_32 _CALL_STAR08 _CALL_STAR08_FAR 
+  _Jump_Table_Addr _Jump_Table_Offset _Jump_Table_Header_Addr 
+  _Jump_Table_Header_Offset _Search_Table_16_Addr _Search_Table_16_Offset 
+  _Search_Table_8_Addr _Search_Table_8_Offset _PUSH_CC _POP_CC 
+  _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR _CONV_LINEAR_TO_FAR 
+Cpu.c.o:
+  Cpu_Delay100US 
+NOT USED VARIABLES
+RTSHC08.C.o (ansiis.lib):
+  _PowOfTwo_8 _PowOfTwo_16 _PowOfTwo_32 errno 
+Cpu.c.o:
+  CCR_reg 
+LowPowerTest_S08QB4.c.o:
+  counter3 rest_mode burst_duration_ratio puls_counter 
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+------- ROM-ADDRESS: 0xF783 ---- SIZE       4 ---
+Filling bytes inserted
+ 00010080
+------- ROM-ADDRESS: 0xF787 ---- RAM-ADDRESS: 0x80 ---- SIZE       1 ---
+Name of initialized Object : puls_mode
+ 03
+------- ROM-ADDRESS: 0xF788 ---- SIZE       2 ---
+Filling bytes inserted
+ 0000
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+_EntryPoint               USES _SOPT1 _SPMSC1 _SPMSC2 _SPMSC3 _ICSTRM _ICSSC 
+                                _ICSC1 _ICSC2 _Startup 
+PE_low_level_init         USES _SCGC1 _SCGC2 _PTAD _PTAPE _PTADD _PTBD _PTBPE 
+                                _PTBDD _PTASE _PTBSE _PTADS _PTBDS _PTCD _PTCDD 
+                                _130Hz_Init _KBIPE _KBISC _2750ms_Init _100Hz_Init 
+_ENTER_BINARY_L_RC        USES _PUSH_ARGS_L 
+_LCMP_RC                  USES _ENTER_BINARY_L_RC _LCMP_k_rel_j 
+Init                      USES _startupData loadByte 
+_Startup                  USES __SEG_END_SSTACK Init main 
+_130Hz_OnInterrupt        USES _PTBD 
+EInt1_OnInterrupt         USES _130Hz_Disable _100Hz_Disable _2750ms_Enable 
+                                counter2 
+_2750ms_OnInterrupt       USES _2750ms_Disable counter2 _2750ms_OnInterrupt 
+                                _TPMMOD new_stim_data old_counter2 stim_on ValueHz 
+                                burst_mode _MTIMSC _MTIMMOD 
+_100Hz_OnInterrupt        USES ISRcounter burst_mode puls_mode _ICMP _PTBD 
+main                      USES PE_low_level_init _130Hz_EnEvent _100Hz_EnEvent 
+                                _2750ms_EnEvent _PTBD stim_on main _PTAD counter2 
+                                new_stim_data _KBISC ValueHz _100Hz_Disable _130Hz_Disable 
+                                old_counter2 i _SEXT16_32 j b a _130Hz_Enable burst_mode 
+                                _100Hz_Enable _SPMSC2 stop_switch _LCMP_RC 
+HWEnDi                    USES EnUser _TPMSC _TPMCNT 
+_130Hz_Enable             USES EnUser HWEnDi 
+_130Hz_Disable            USES EnUser HWEnDi 
+_130Hz_Init               USES _TPMSC _TPMC0SC EnUser _130Hz_EnEvent _TPMC0V 
+                                _TPMMOD _TPMCNT HWEnDi 
+_130Hz_Interrupt          USES _TPMC0SC _130Hz_EnEvent _130Hz_OnInterrupt 
+EInt1_Interrupt           USES _KBISC EInt1_OnInterrupt 
+HWEnDi                    USES EnUser _RTCSC 
+_2750ms_Enable            USES EnUser HWEnDi 
+_2750ms_Disable           USES EnUser HWEnDi 
+_2750ms_Init              USES _RTCSC EnUser _2750ms_EnEvent _RTCMOD HWEnDi 
+_2750ms_Interrupt         USES _RTCSC _2750ms_EnEvent _2750ms_OnInterrupt 
+HWEnDi                    USES EnUser _MTIMSC 
+_100Hz_Enable             USES EnUser HWEnDi 
+_100Hz_Disable            USES EnUser HWEnDi 
+_100Hz_Init               USES _MTIMSC EnUser _100Hz_EnEvent _MTIMMOD _MTIMCLK 
+                                HWEnDi 
+_100Hz_Interrupt          USES _MTIMSC _100Hz_EnEvent _100Hz_OnInterrupt 
+_vect                     USES _2750ms_Interrupt Cpu_Interrupt EInt1_Interrupt 
+                                _100Hz_Interrupt _130Hz_Interrupt _EntryPoint 
+
+*********************************************************************************************
+DEPENDENCY TREE
+*********************************************************************************************
+ main and _Startup Group
+ | 
+ +- main                
+ |  | 
+ |  +- PE_low_level_init   
+ |  |  | 
+ |  |  +- _130Hz_Init         
+ |  |  |  | 
+ |  |  |  +- HWEnDi              
+ |  |  |       
+ |  |  +- _2750ms_Init        
+ |  |  |  | 
+ |  |  |  +- HWEnDi              
+ |  |  |       
+ |  |  +- _100Hz_Init         
+ |  |     | 
+ |  |     +- HWEnDi              
+ |  |          
+ |  +- _100Hz_Disable      
+ |  |  | 
+ |  |  +- HWEnDi               (see above)
+ |  |     
+ |  +- _130Hz_Disable      
+ |  |  | 
+ |  |  +- HWEnDi               (see above)
+ |  |     
+ |  +- _SEXT16_32          
+ |  |    
+ |  +- _130Hz_Enable       
+ |  |  | 
+ |  |  +- HWEnDi               (see above)
+ |  |     
+ |  +- _100Hz_Enable       
+ |  |  | 
+ |  |  +- HWEnDi               (see above)
+ |  |     
+ |  +- _LCMP_RC            
+ |     | 
+ |     +- _ENTER_BINARY_L_RC  
+ |     |  | 
+ |     |  +- _PUSH_ARGS_L        
+ |     |       
+ |     +- _LCMP_k_rel_j       
+ |          
+ +- _EntryPoint         
+    | 
+    +- _Startup            
+       | 
+       +- Init                
+       |  | 
+       |  +- loadByte            
+       |       
+       +- main                 (see above)
+          
+ _vect               
+ | 
+ +- _2750ms_Interrupt   
+ |  | 
+ |  +- _2750ms_OnInterrupt 
+ |     | 
+ |     +- _2750ms_Disable     
+ |        | 
+ |        +- HWEnDi               (see above)
+ |           
+ +- Cpu_Interrupt       
+ |    
+ +- EInt1_Interrupt     
+ |  | 
+ |  +- EInt1_OnInterrupt   
+ |     | 
+ |     +- _130Hz_Disable       (see above)
+ |     |  
+ |     +- _100Hz_Disable       (see above)
+ |     |  
+ |     +- _2750ms_Enable      
+ |        | 
+ |        +- HWEnDi               (see above)
+ |           
+ +- _100Hz_Interrupt    
+ |  | 
+ |  +- _100Hz_OnInterrupt  
+ |     | 
+ |     +- _ICMP               
+ |          
+ +- _130Hz_Interrupt    
+ |  | 
+ |  +- _130Hz_OnInterrupt  
+ |       
+ +- _EntryPoint          (see above)
+    
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 7
+Total size of all blocks to be downloaded: 1982
+
