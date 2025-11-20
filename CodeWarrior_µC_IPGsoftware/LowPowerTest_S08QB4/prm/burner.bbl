@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OPENFILE "%ABS_FILE%.s19"
 format=motorola
 busWidth=1
@@ -7,3 +8,14 @@ destination=0
 SRECORD=Sx
 SENDBYTE 1 "%ABS_FILE%"
 CLOSE
+=======
+OPENFILE "%ABS_FILE%.s19"
+format=motorola
+busWidth=1
+origin=0
+len=0x1000000
+destination=0
+SRECORD=Sx
+SENDBYTE 1 "%ABS_FILE%"
+CLOSE
+>>>>>>> ee6fccc69f14bc60ee1207c6c470af86ffbbb5ff
