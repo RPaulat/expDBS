@@ -8,7 +8,7 @@ This repository contains selected data, code, and supplementary materials relate
 
 ---
 
-## Repository folder structure
+## Repository folder structure (not updated)
 
 The current structure of this repository is as follows:
 
@@ -27,8 +27,6 @@ The current structure of this repository is as follows:
     - This file, describing the repository contents and usage.  
   - **`LICENSE`**  
     - License file for the code and associated materials.
-
-If needed, you can adjust this structure locally (e.g., by splitting `data/` into `raw/` and `processed/`), as long as the structure remains clearly documented.
 
 ---
 
