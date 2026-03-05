@@ -44,7 +44,7 @@ Data are shared for non‑commercial research purposes in accordance with instit
 
 ## Authors and contact
 
-- ** Corresponding authors **
+- **Corresponding authors** -
 - **Raik Paulat** – *First corresponding author*  
   Charité Campus Mitte, Wengerlab | Translational Neuromodulation, Bonhoefferweg 3, E02 R.020 10117 Berlin, Germany, raik.paulat@charite.de
 - **Leif Koschützke** – *Second corresponding author*  
