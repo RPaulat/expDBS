@@ -1,4 +1,4 @@
-# expDBS – Experimental Deep Brain Stimulation Data and Materials
+# expDBS – Experimental Deep Brain Stimulation Data and Materials (under construction)
 
 Repository accompanying the manuscript:
 
@@ -8,21 +8,27 @@ This repository contains selected data, code, and supplementary materials relate
 
 ---
 
-## Content overview
+## Repository folder structure
 
-- **`data/`**  
-  - Example datasets, spike‑sorted traces, or stimulation‑related recordings (depending on what you actually upload; adjust as needed).
+The current structure of this repository is as follows:
 
-- **`code/`**  
-  - Analysis scripts (e.g., MATLAB, Python, or similar) used for processing stimulation parameters, behavioral data, or neurophysiological recordings.
+- **`expDBS/`**  
+  - **`data/`**  
+    - Experimental recordings, stimulation logs, or example datasets related to the chronic dual‑target DBS protocols.  
+  - **`code/`**  
+    - Analysis scripts (e.g., MATLAB, Python, or similar) used for processing stimulation parameters, behavioral data, or neurophysiological recordings.  
+  - **`hardware/`**  
+    - Schematics, layout files, or firmware sources for the wireless lightweight implantable pulse generators.  
+  - **`figures/`**  
+    - Source files or scripts for figures used in the manuscript or supplementary material (e.g., stimulation schematics, renderings, plots).  
+  - **`supplementary/`**  
+    - Additional documentation, extended protocols, or example videos referenced in the manuscript.  
+  - **`README.md`**  
+    - This file, describing the repository contents and usage.  
+  - **`LICENSE`**  
+    - License file for the code and associated materials.
 
-- **`figures/`**  
-  - Source files or scripts for figures used in the manuscript or supplementary material (e.g., plots, schematics).
-
-- **`supplementary/`**  
-  - Additional documentation, extended protocols, or example videos referenced in the manuscript.
-
-Adjust the structure if, for instance, you have separate folders for `hardware/`, `stimulation_protocols/`, or `video_examples/`.
+If needed, you can adjust this structure locally (e.g., by splitting `data/` into `raw/` and `processed/`), as long as the structure remains clearly documented.
 
 ---
 
@@ -44,12 +50,11 @@ Data are shared for non‑commercial research purposes in accordance with instit
 
 ## Authors and contact
 
-- **Corresponding authors** -
-- **Raik Paulat** – *First corresponding author*  
-  Charité Campus Mitte, Wengerlab | Translational Neuromodulation, Bonhoefferweg 3, E02 R.020 10117 Berlin, Germany, raik.paulat@charite.de
-- **Leif Koschützke** – *Second corresponding author*  
-  Clinic for Neurology with Department of Experimental Neurology, Bonhoefferweg 3, 10117 Berlin, Germany leif.koschuetzke@charite.de
-
+- **Raik Paulat** – *Corresponding author*  
+  Charité – Universitätsmedizin Berlin  
+  Email: [your‑email]  
+- **[First author name]** – *Data curation, analysis*  
+- **[Last author name]** – *Supervision, project leadership*
 
 ---
 
@@ -58,4 +63,10 @@ Data are shared for non‑commercial research purposes in accordance with instit
 If you use data or code from this repository, please cite the associated publication:
 
 > *Wireless lightweight implantable pulse generators enable chronic dual‑target deep brain stimulation in rodent disease models*  
- 
+> [add full citation after publication, e.g. Sci. Rep. YYYY; DOI: ...]
+
+---
+
+## Acknowledgements
+
+We thank our institutions and funding agencies for support. Facilities and expertise from [Core Facility, Collaborators, etc.] are also gratefully acknowledged.
