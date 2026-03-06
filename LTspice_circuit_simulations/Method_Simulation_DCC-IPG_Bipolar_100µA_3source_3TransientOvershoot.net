@@ -1,0 +1,72 @@
+* C:\Users\raikp\OneDrive - Charité - Universitätsmedizin Berlin\Github\expDBS\LTspice_circuit_simulations\Method_Simulation_DCC-IPG_Bipolar_100µA_3source_3TransientOvershoot.asc
+V1 N007 0 PULSE(0 3.0 0.00220 0.000001 0.000001 0.000732 0.00750)
+Q1 E1 N021 0 0 BC846B
+R1 N021 N001 1Meg tol=5 pwr=0.05
+R2 N002 N001 1Meg tol=5 pwr=0.05
+C2 N001 N007 750p V=10
+R5 N001 0 95k3 tol=1 pwr=0.05
+Q3 E1 N002 N007 0 BC856B
+Q2 N011 N010 N007 0 BC856B
+Q4 Ref1 N011 N010 0 BC856B
+R4 N011 E1 1Meg tol=5 pwr=0.05
+R6 N007 N010 4k53 tol=1 pwr=0.05
+R7 Ref1 0 357k0 tol=1 pwr=0.05
+C1 N013 N018 820p
+R3 N013 N018 10k tol=1 pwr=0.05
+C4 P001 N012 47n
+R8 N018 P001 10k
+C3 N018 N012 3n
+Q5 E2 N022 0 0 BC846B
+R9 N022 N003 1Meg tol=5 pwr=0.05
+R10 N004 N003 1Meg tol=5 pwr=0.05
+Q6 E2 N004 N008 0 BC856B
+C6 N015 N019 820p
+R15 N015 N019 15k tol=1 pwr=0.05
+C7 P002 N014 47n
+R16 N019 P002 15k
+C8 N019 N014 3n
+V2 N008 0 PULSE(0 3.0 0.00220 0.000001 0.000001 0.000732 0.00750)
+R17 E2 N015 1k tol=5
+R18 N012 Ref1 2k tol=5
+R19 E1 N013 1k tol=5
+R20 N014 Ref2 2k tol=5
+L1 N008 Ref2 5.6n
+R11 0 N003 95k3
+C9 Ref2 E2 0.005µ
+C5 N003 N008 750p
+C10 N008 Ref2 0.1µ
+R12 Ref2 0 357k0
+Q7 E3 N023 0 0 BC846B
+R13 N023 N005 1Meg tol=5 pwr=0.05
+R14 N006 N005 1Meg tol=5 pwr=0.05
+Q8 E3 N006 N009 0 BC856B
+C11 N017 N020 820p
+R21 N017 N020 15k tol=1 pwr=0.05
+C12 P003 N016 47n
+R22 N020 P003 15k
+C13 N020 N016 3n
+R23 E3 N017 1k tol=5
+R24 N016 Ref3 2k tol=5
+L2 N009 Ref3 5.6n
+R25 0 N005 95k3
+C14 Ref3 E3 0.005µ
+C15 N005 N009 750p
+C16 N009 Ref3 0.1µ
+V3 N009 0 PULSE(0 3.0 0.00220 0.000001 0.000001 0.000732 0.00750)
+L3 Ref3 0 4.7µ
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\raikp\AppData\Local\LTspice\lib\cmp\standard.bjt
+* .tran 0 0.21 0.202 startup
+* brain tissue\nimpedance
+* body tissues\nimpedance
+* body tissues\nimpedance
+* brain tissue \nimpedance
+* body tissue\nimpedance
+* brain tissue \nimpedance
+.tran 0 0.208 0.203 startup
+* PULSE(0 3.0 0.00050 0.000001 0.000001 0.000732 0.00750)
+* PULSE(0 3.0 0.00310 0.000001 0.000001 0.000732 0.00750)
+* PULSE(0 3.0 0.00580 0.000001 0.000001 0.000732 0.00750)
+.backanno
+.end
