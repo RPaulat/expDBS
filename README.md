@@ -39,13 +39,13 @@ The current structure of this repository is as follows:
 A selection of data, videos, or other additional material is available in this repository:  
 https://github.com/RPaulat/expDBS
 
-Further data and material may be made available upon reasonable request. Users are welcome to contact the corresponding author via email.
+Further data and material may be made available upon reasonable request. Users are welcome to contact the corresponding authors via email.
 
 ---
 
 ## License and usage
 
-Unless otherwise stated, the code is released under the **MIT License** (see `LICENSE` file).  
+Unless otherwise stated, the code is open source.  
 Data are shared for non‑commercial research purposes in accordance with institutional data‑use and animal‑ethics policies.
 
 ---
@@ -65,10 +65,10 @@ Data are shared for non‑commercial research purposes in accordance with instit
 If you use data or code from this repository, please cite the associated publication:
 
 > *Wireless lightweight implantable pulse generators enable chronic dual‑target deep brain stimulation in rodent disease models*  
-> [add full citation after publication, e.g. Sci. Rep. YYYY; DOI: ...]
+> [full citation after publication, e.g. Sci. Rep. YYYY; DOI: ... will follow.]
 
 ---
 
 ## Acknowledgements
 
-We thank our institutions and funding agencies for support. Facilities and expertise from [Core Facility, Collaborators, etc.] are also gratefully acknowledged.
+We thank our institutions and funding agencies for support. Facilities and expertise from Core Facility Workshop (CWW) are also gratefully acknowledged.
