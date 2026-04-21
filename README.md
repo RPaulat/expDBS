@@ -4,7 +4,7 @@ Repository accompanying the manuscript:
 
 > *“Wireless lightweight implantable pulse generators enable chronic dual‑target deep brain stimulation in rodent disease models”*
 
-This repository contains selected data, code, and supplementary materials related to the experiments and analyses presented in the manuscript. More data and material may be provided upon reasonable request.
+This repository contains selected data, code, and additional supplementary materials related to the experiments and analyses presented in the manuscript. More data and material may be provided upon reasonable request.
 
 ---
 
