@@ -12,17 +12,21 @@ This repository contains selected data, code, and additional supplementary mater
 
 The current structure of this repository is as follows:
 
-- **`expDBS/`**  
-  - **`data/`**  
-    - Experimental recordings, stimulation logs, or example datasets related to the chronic dual‑target DBS protocols.  
-  - **`code/`**  
-    - Analysis scripts (e.g., MATLAB, Python, or similar) used for processing stimulation parameters, behavioral data, or neurophysiological recordings.  
-  - **`hardware/`**  
-    - Schematics, layout files, or firmware sources for the wireless lightweight implantable pulse generators.  
-  - **`figures/`**  
-    - Source files or scripts for figures used in the manuscript or supplementary material (e.g., stimulation schematics, renderings, plots).  
-  - **`supplementary/`**  
-    - Additional documentation, extended protocols, or example videos referenced in the manuscript.  
+- **`expDBS/`**
+  - **`CodeWarrior_µC_IPGsoftware/`**  
+    - Souce Code (Code Warrior) used for processing stimulation parameters throughout C & Assembler software.
+  - **`Documents/`**  
+    - Additional documentation, extended FEM simulations.  
+  - **`Electrode/`**  
+    - Renderings, plots and pictures.
+  - **`LTspice_circuit_simulations/`**
+    - Simulation files, supplementary and additional material.
+  - **`Schematic&Layout/`**  
+    - Schematics, layouted board files (EAGLE, FUSION), or firmware sources for the wireless lightweight implantable pulse generators.   
+  - **`Statistics&Pictures/`**
+    - Data Analysis behavioral data, R-Studio plots or neurophysiological recordings.
+  - - **`Videos/`**
+    - example video referenced in the manuscript or additional material.  
   - **`README.md`**  
     - This file, describing the repository contents and usage.  
   - **`LICENSE`**  
