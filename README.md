@@ -8,7 +8,7 @@ This repository contains selected data, code, and additional supplementary mater
 
 ---
 
-## Repository folder structure (not updated)
+## Repository folder structure (last updated 04/21/2026)
 
 The current structure of this repository is as follows:
 
