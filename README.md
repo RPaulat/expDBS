@@ -63,6 +63,10 @@ If you use data or code from this repository, please cite the associated publica
 > *Wireless lightweight implantable pulse generators enable chronic dual‑channel deep brain stimulation in rodent disease models*  
 > Frontiers in Neuroscience (full citation and DOI will follow after publication).
 
+A preprint of an earlier version is available at Research Square:  
+https://doi.org/10.21203/rs.3.rs-9019884/v1  
+This work is licensed under a CC BY 4.0 License.
+
 ---
 
 ## Acknowledgements
