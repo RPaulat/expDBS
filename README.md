@@ -1,20 +1,20 @@
-# expDBS – Experimental Deep Brain Stimulation Data and Materials (under construction)
+# expDBS – Experimental Deep Brain Stimulation Data and Materials
 
-Repository accompanying the manuscript:
+Repository accompanying the manuscript (Frontiers in Neuroscience):
 
-> *“Wireless lightweight implantable pulse generators enable chronic dual‑target deep brain stimulation in rodent disease models”*
+> *“Wireless lightweight implantable pulse generators enable chronic dual‑channel deep brain stimulation in rodent disease models”*
 
 This repository contains selected data, code, and additional supplementary materials related to the experiments and analyses presented in the manuscript. More data and material may be provided upon reasonable request.
 
 ---
 
-## Repository folder structure (last updated 04/21/2026)
+## Repository folder structure 
 
 The current structure of this repository is as follows:
 
 - **`expDBS/`**
   - **`CodeWarrior_µC_IPGsoftware/`**  
-    - Souce Code (Code Warrior) used for processing stimulation parameters throughout C & Assembler software.
+    - Source code (Code Warrior) used for processing stimulation parameters throughout C & Assembler software.
   - **`Documents/`**  
     - Additional documentation, extended FEM simulations.  
   - **`Electrode/`**  
@@ -25,12 +25,10 @@ The current structure of this repository is as follows:
     - Schematics, layouted board files (EAGLE, FUSION), or firmware sources for the wireless lightweight implantable pulse generators.   
   - **`Statistics&Pictures/`**
     - Data Analysis behavioral data, R-Studio plots or neurophysiological recordings.
-  - - **`Videos/`**
-    - example video referenced in the manuscript or additional material.  
+  - **`Videos/`**
+    - `SupplementaryVideo.mp4`: edited video of freely moving mice with implanted s-IPG systems from the 5 vs. 5 feasibility study (Supplementary Video of the manuscript).  
   - **`README.md`**  
     - This file, describing the repository contents and usage.  
-  - **`LICENSE`**  
-    - License file for the code and associated materials.
 
 ---
 
@@ -45,7 +43,7 @@ Further data and material may be made available upon reasonable request. Users a
 
 ## License and usage
 
-Unless otherwise stated, the code is open source.  
+Unless otherwise stated, the code is open source (a formal license file will be added).  
 Data are shared for non‑commercial research purposes in accordance with institutional data‑use and animal‑ethics policies.
 
 ---
@@ -53,10 +51,8 @@ Data are shared for non‑commercial research purposes in accordance with instit
 ## Authors and contact
 
 - **Corresponding authors**
-- **Raik Paulat** – *First corresponding author*  
-  
-- **Leif Koschützke** – *Second corresponding author*  
-  
+- **Raik Paulat** – *First corresponding author*, Charité – Universitätsmedizin Berlin, Department of Neurology  
+- **Leif Koschützke** – *Second corresponding author*, Charité – Universitätsmedizin Berlin, Department of Neurology; Center for Stroke Research Berlin  
 
 ---
 
@@ -64,8 +60,8 @@ Data are shared for non‑commercial research purposes in accordance with instit
 
 If you use data or code from this repository, please cite the associated publication:
 
-> *Wireless lightweight implantable pulse generators enable chronic dual‑target deep brain stimulation in rodent disease models*  
-> [full citation after publication, e.g. Sci. Rep. YYYY; DOI: ... will follow.]
+> *Wireless lightweight implantable pulse generators enable chronic dual‑channel deep brain stimulation in rodent disease models*  
+> Frontiers in Neuroscience (full citation and DOI will follow after publication).
 
 ---
 
